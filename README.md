@@ -5,15 +5,7 @@ obfuscate-clojure-project-demo
 ## Usage
 
     $ ./run.sh
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
+    
 ## License
 
 Copyright © 2013 Eiffel Q
