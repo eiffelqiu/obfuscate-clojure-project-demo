@@ -18,9 +18,11 @@
 # Tell proguard to leave the clojure runtime alone
 # You would need to add any other classes that you wish to preserve here.
 -keep class clojure.** { *; }
+-keep class java.** { *; }
+-keep class javax.** { *; }
 
 # Keep our core__init class
--keep class proguard.core__init {
+-keep class helloworld.core__init {
     public static void load();
 }
 

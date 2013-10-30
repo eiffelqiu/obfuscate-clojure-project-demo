@@ -5,6 +5,14 @@ obfuscate-clojure-project-demo
 ## Usage
 
     $ ./run.sh
+
+## Run unobfuscated version
+	
+	$ lein run
+
+## Run obfuscated version
+	
+	$ java -jar obfuscated/helloworld-0.1.0-SNAPSHOT-standalone.jar
     
 ## License
 

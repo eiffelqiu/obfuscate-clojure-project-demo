@@ -2,4 +2,6 @@ pom.xml
 /lib/
 /classes/
 /targets/
+/target/
+/obfuscated/
 .lein-deps-sum
