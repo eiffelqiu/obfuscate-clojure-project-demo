@@ -3,7 +3,7 @@
 # Our output direcotry
 -outjars obfuscated
 
-# Link to rt.jar. I'm on a Mac so your path may differ
+# Link to rt.jar. I'm on a Mac so your path may differ, in Mac OSX, rt.jar is classes.jar
 -libraryjars /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar
 
 # ProGuard options. Detailed explanation here http://proguard.sourceforge.net/index.html#manual/usage.html
