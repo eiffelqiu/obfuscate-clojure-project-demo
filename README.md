@@ -1,13 +1,18 @@
-# obfuscate clojure hello world app
+# Howto Obfuscate Clojure Project
 
-How to use proguard.jar to obfuscate a clojure project.
+## Howto
 
-check out run.sh, it takes 2 steps
+### Steps (run.sh)
 
-1: lein uberjar to create all-in-one standalone jar 
-2: use proguard.pro config file to obfuscate jar file,  run 'java -jar proguard.jar @proguard.pro'
+#### 1: create all-in-one standalone jar 
 
-all secrets lie in 2 files: project.clj ,  proguard.pro  
+	$ lein uberjar
+
+#### 2: use proguard.pro config file to obfuscate jar file 
+
+	$ java -jar proguard.jar @proguard.pro
+
+#### How
 
 project.clj(obfuscate snippet) 
 
