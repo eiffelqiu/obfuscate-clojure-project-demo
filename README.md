@@ -1,5 +1,11 @@
 # Howto Obfuscate Clojure Project
 
+## Requirement
+
+### leiningen Installation
+
+	$ brew install lein
+
 ## Howto
 
 ### Steps (run.sh)
